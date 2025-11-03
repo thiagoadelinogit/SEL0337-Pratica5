@@ -1,0 +1,11 @@
+commit fc37c606d85cc8f4c0bd822851b89c7436b1076e
+Author: thiagoadelinogit <thiagoadelino@usp.br>
+Date:   Mon Nov 3 21:32:20 2025 +0000
+
+    Adiciona scripts Python e arquivo .service da Parte 1
+
+commit d527c3ac1dbb0d6a61445cb824a697083d0dae5e
+Author: thiagoadelinogit <thiagoadelino@usp.br>
+Date:   Mon Nov 3 18:22:24 2025 -0300
+
+    Initial commit
