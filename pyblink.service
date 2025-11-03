@@ -1,0 +1,13 @@
+[Unit]
+Description=Python Blink LED Service
+After=multi-user.target
+
+[Service]
+# Usamos o caminho completo para o interpretador Python3
+# e depois o caminho completo para o seu script
+ExecStart=/usr/bin/python3 /home/sel/thiago/pratica5/blink.py
+ExecStop=/usr/bin/python3 /home/sel/thiago/pratica5/blink_off.py
+user=SEL
+
+[Install]
+WantedBy=multi-user.target
