@@ -37,15 +37,17 @@ O processo foi dividido nas seguintes etapas:
 
 O circuito utilizado consiste em um LED conectado à **GPIO 18** da Raspberry Pi, com um resistor de 330 $\Omega$ para limitar a corrente.
 
-> **(COLOQUE SUA FOTO DA MONTAGEM AQUI)**
-> 
+
+> ![Imagem do WhatsApp de 2025-11-03 à(s) 17 01 51_a1b5e41e](https://github.com/user-attachments/assets/df623449-4d48-472f-8ef5-8ece822a3675)
+
 
 ### Verificação do Funcionamento
 
 O serviço foi verificado reiniciando a Raspberry Pi (`sudo reboot`). Conforme esperado, o LED começou a piscar automaticamente assim que o sistema operacional foi carregado, confirmando que o serviço `systemd` foi executado com sucesso no boot.
 
-> **(COLOQUE SEU PRINT SCREEN OU FOTO DO LED PISCANDO AQUI)**
-> 
+> ![Imagem do WhatsApp de 2025-11-03 à(s) 17 02 11_f1f4738d](https://github.com/user-attachments/assets/bb63b184-b210-4baf-8862-6397aec3c93c)
+> https://github.com/user-attachments/assets/452a659e-0785-4347-8a37-055d3caf651a
+
 
 ## Parte 2: Arquivos do Projeto
 
